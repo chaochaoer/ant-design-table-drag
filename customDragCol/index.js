@@ -1,5 +1,5 @@
-import dragDefault from "./dragDefault"
-import dragLine from "./dragLine"
+import dragDefault from "./dragType/dragDefault"
+import dragLine from "./dragType/dragLine"
 
 const customDragCol = (options) => {
     if (!options.columns) throw new Error("columns为必传项")
