@@ -1,5 +1,5 @@
 # ant-design-table-drag
-**基于antDesign、antd实现vue2、vue3的表格拖拽、表头拖拽功能**
+**基于antDesign、antd实现兼容vue2、vue3的表格拖拽、表头拖拽，参考线模式和默认模式**
 
 近期项目开发后台，由于表头数据比较多，需要实现表格表头拖拽功能，项目应用的UI是antDesign，查找文档目前vue版本的antDesign好像并不支持这一功能，所以自己写了一个小demo，希望对大家有所帮助。
 
