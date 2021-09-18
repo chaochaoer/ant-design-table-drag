@@ -1,5 +1,5 @@
 # ant-design-table-drag
-**基于antDesign实现vue2、vue3的表头拖拽功能**
+**基于antDesign实现vue2、vue3的表格、表头拖拽功能**
 
 近期项目开发后台，由于表头数据比较多，需要实现表格表头拖拽功能，项目应用的UI是antDesign，查找文档目前vue版本的antDesign好像并不支持这一功能，所以自己写了一个小demo，希望对大家有所帮助。
 
@@ -35,7 +35,7 @@ dragAreaWidth: 20  // 注意：这里是数字类型
 minCellWidth: 30   // 注意：这里是数字类型
 mode: 'default'
 lineStyle：{
- 	background: '#ccc',
+    background: '#ccc',
     width: '1px'
 }  
 ```
@@ -53,7 +53,7 @@ lineStyle：{
     <a-table
       :columns="tableHead"
       :bordered="customDragCol"
-		... 省去了其他属性，'dataSource'、'row-selectio'之类的
+	... 省去了其他属性，'dataSource'、'row-selectio'之类的
     >
     	... 省去一些插槽
     </a-table>
